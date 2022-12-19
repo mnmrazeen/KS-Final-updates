@@ -29,6 +29,7 @@ await page.getByText('Rejections').click();
 await page.getByText('Pending Payments').click();
 await page.getByText('New').click();
 await page.getByRole('row', { name: 'asf fsa S Approver Level1 View' }).getByRole('button', { name: 'View' }).click();
+
 await page.getByRole('button', { name: 'Next' }).click();
 await page.getByRole('button', { name: 'Next' }).click();
 await page.getByRole('button', { name: 'Next' }).click();
